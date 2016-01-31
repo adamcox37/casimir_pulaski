@@ -1,3 +1,50 @@
+/*General*/
+
 body {
 	background-color: #b7bfc7;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+
+/*Header*/
+
+.header {
+	text-align: right;
+}
+
+.header1 {
+	text-align: left;
+}
+
+/*Index*/
+
+.nav {
+	margin: 20px 0;
+	padding: 20px 0;
+	text-align: center;
+}
+
+
+/*History*/
+
+.history {
+	margin: 20px 0;
+	padding: 20px 0;
+	text-align: center;
+}
+
+
+/*Info*/
+
+.info {
+	margin: 20px 0;
+	padding: 20px 0;
+	text-align: center;	
 }
