@@ -1,1 +1,1 @@
-//alert("testing javascript");
+alert("Contest postponded due to Holiday");

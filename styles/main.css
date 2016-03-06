@@ -4,8 +4,12 @@ body {
 	background-color: #b7bfc7;
 }
 
-a {
+a:link, a:visited {
 	text-decoration: none;
+	color: black;
+}
+a:hover, a:active {
+	color: white;
 }
 
 img {
@@ -16,12 +20,9 @@ img {
 /*Header*/
 
 .header {
-	text-align: right;
-}
-
-.header1 {
 	text-align: left;
 }
+
 
 /*Index*/
 
@@ -35,7 +36,7 @@ img {
 /*History*/
 
 .history {
-	margin: 20px 0;
+	margin: 20px 5% auto;
 	padding: 20px 0;
 	text-align: center;
 }
@@ -43,13 +44,46 @@ img {
 .quote {
 	font-size: 3em;
 	font: bold;
+	margin-right: 10%;
+	margin-left: 10%;
+	border-bottom-style: solid;
+	border-color: #303030;
+	padding-bottom: 20px;
 }
 
 
 /*Info*/
 
 .info {
-	margin: 20px 0;
+	margin: 20px 5% auto;
 	padding: 20px 0;
 	text-align: center;	
 }
+
+.info img {
+	max-width: 25%;
+}
+
+.spots {
+	margin :20px 5% auto;
+	padding: 20px 0;
+
+}
+
+.spots img {
+	max-width: 50%;
+}
+
+.first {
+	float: left;
+}
+
+.bonus {
+	float: right;
+}
+
+
+
+
+
+
